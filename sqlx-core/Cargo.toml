@@ -150,7 +150,8 @@ libsqlite3-sys = { version = "0.24.1", optional = true, default-features = false
     "pkg-config",
     "vcpkg",
     "bundled",
-    "unlock_notify"
+    "unlock_notify",
+    "bundled-sqlcipher-vendored-openssl"
 ] }
 log = { version = "0.4.14", default-features = false }
 md-5 = { version = "0.10.0", default-features = false, optional = true }
